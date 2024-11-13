@@ -1,0 +1,12 @@
+.list-count {
+    all: unset;
+    background-color: transparent;
+    font-weight: 600;
+    height: 40px;
+    width: fit-content;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
