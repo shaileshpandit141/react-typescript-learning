@@ -5,10 +5,10 @@ import AddButton from './addButton/AddButton'
 
 const AddInfoForm: React.FC = (props) => {
   return (
-    <div className='form'>
+    <form className='add-info-form'>
       <UrlInput />
       <AddButton />
-    </div>
+    </form>
   )
 }
 

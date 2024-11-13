@@ -8,12 +8,12 @@ import DeleteButton from './deleteButton/DeleteButton'
 const InfoCard: React.FC = (props) => {
   return (
     <div className='info-card'>
-      <figure className='thumbnail-container'>
+      <div className='left-content'>
         <Thumbnail />
-      </figure>
-      <div className='author-title-container'>
-        <Author />
-        <Title />
+        <div className='author-title-container'>
+          <Title />
+          <Author />
+        </div>
       </div>
       <DeleteButton />
     </div>

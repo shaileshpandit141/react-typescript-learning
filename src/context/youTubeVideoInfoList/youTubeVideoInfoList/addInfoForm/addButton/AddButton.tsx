@@ -1,9 +1,12 @@
 import React from 'react'
 import './AddButton.css'
+import arrowUpward from '../../../assets/icons/arrow_upward.svg'
 
 const AddButton: React.FC = (props) => {
   return (
-    <div>AddButton</div>
+    <button className='add-button'>
+      <img src={arrowUpward} alt='arrow-upward' />
+    </button>
   )
 }
 

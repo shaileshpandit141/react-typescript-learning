@@ -3,7 +3,7 @@ import './Author.css'
 
 const Author: React.FC = (props) => {
   return (
-    <div>Author</div>
+    <p className='author'>@author</p>
   )
 }
 

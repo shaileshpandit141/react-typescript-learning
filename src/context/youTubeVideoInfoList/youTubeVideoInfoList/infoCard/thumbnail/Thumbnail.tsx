@@ -3,7 +3,9 @@ import './Thumbnail.css'
 
 const Thumbnail: React.FC = (props) => {
   return (
-    <div>Thumbnail</div>
+    <figure className='thumbnail'>
+      
+    </figure>
   )
 }
 

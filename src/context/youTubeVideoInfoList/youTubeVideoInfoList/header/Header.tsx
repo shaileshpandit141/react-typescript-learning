@@ -3,7 +3,9 @@ import './Header.css'
 
 const Header: React.FC = (props) => {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <span>Video Info List</span>
+    </div>
   )
 }
 

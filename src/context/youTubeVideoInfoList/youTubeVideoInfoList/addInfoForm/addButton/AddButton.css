@@ -1,0 +1,24 @@
+.add-button {
+    all: unset;
+    background-color: #131313;
+    aspect-ratio: 1/1;
+    height: 80%;
+    border-radius: 999rem;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: transform 0.3s ease;
+    
+    img {
+        height: 80%;
+        width: 80%;
+        object-fit: contain;
+        object-position: center;
+    }
+    
+    &:active {
+        transform: scale(.8);
+    }
+}

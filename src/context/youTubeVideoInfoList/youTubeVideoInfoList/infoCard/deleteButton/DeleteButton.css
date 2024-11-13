@@ -1,0 +1,25 @@
+.delete-button {
+    all: unset;
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    height: 40px;
+    width: 40px;
+    border-radius: 999rem;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: transform 0.3s ease;
+    
+    img {
+        height: 80%;
+        width: 80%;
+        object-fit: contain;
+        object-position: center;
+    }
+    
+    &:active {
+        transform: scale(.8);
+    }
+}

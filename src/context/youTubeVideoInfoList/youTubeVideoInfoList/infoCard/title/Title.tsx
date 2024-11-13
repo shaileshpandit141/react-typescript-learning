@@ -3,7 +3,7 @@ import './Title.css'
 
 const Title: React.FC = (props) => {
   return (
-    <div>Title</div>
+    <h3 className='title'>Some video title goes here</h3>
   )
 }
 

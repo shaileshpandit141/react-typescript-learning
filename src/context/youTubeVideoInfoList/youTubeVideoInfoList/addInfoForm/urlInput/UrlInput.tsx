@@ -3,7 +3,12 @@ import './UrlInput.css'
 
 const UrlInput: React.FC = (props) => {
   return (
-    <div>UrlInput</div>
+    <input
+      type='url'
+      placeholder='Add a video url'
+      required
+      className='url-input'
+    />
   )
 }
 

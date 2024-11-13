@@ -1,0 +1,15 @@
+.thumbnail {
+    all: unset;
+    background-color: #000;
+    aspect-ratio: 16/9;
+    min-width: 150px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
