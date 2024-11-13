@@ -1,8 +1,8 @@
 import React from 'react'
 import './YouTubeVideoInfoList.css'
-import Header from '../components/header/Header'
-import InfoCard from '../components/infoCard/infoCard/InfoCard'
-import AddInfoForm from '../components/addInfoForm/addInfoForm/AddInfoForm'
+import Header from './header/Header'
+import InfoCard from './infoCard/InfoCard'
+import AddInfoForm from './addInfoForm/AddInfoForm'
 
 const YouTubeVideoInfoList: React.FC = (props) => {
   return (
