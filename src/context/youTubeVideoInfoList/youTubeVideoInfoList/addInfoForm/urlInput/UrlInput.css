@@ -1,6 +1,7 @@
 .url-input {
     all: unset;
     background-color: transparent;
+    color: #fff;
     width: 100%;
     min-width: 0;
     letter-spacing: 0.05em;
