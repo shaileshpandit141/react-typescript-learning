@@ -11,6 +11,7 @@ const YouTubeVideoInfoList: React.FC = (props) => {
       <main className='info-cards'>
         <InfoCard />
         <InfoCard />
+        <InfoCard />
       </main>
       <AddInfoForm />
     </div>

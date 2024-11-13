@@ -2,7 +2,7 @@
     all: unset;
     background-color: #131313;
     aspect-ratio: 1/1;
-    height: 80%;
+    height: 40px;
     border-radius: 999rem;
     margin-right: 6px;
     display: flex;

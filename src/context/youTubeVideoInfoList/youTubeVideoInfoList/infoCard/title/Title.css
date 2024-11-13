@@ -1,5 +1,6 @@
 .title {
     letter-spacing: 0.05em;
+    line-height: 1;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
