@@ -16,5 +16,5 @@ Welcome to my **React with TypeScript** learning project! 🎉 This repository i
 1. **Clone the repository**:
 
   ```bash
-  git clone https://github.com/your-username/react-typescript-learning.git
+  git clone https://github.com/shaileshpandit141/react-typescript-learning.git
   cd react-typescript-learning
