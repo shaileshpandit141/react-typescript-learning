@@ -1,0 +1,45 @@
+.add-info-form {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 999rem;
+    overflow: hidden;
+    margin-top: 12px;
+
+    .url-input {
+        all: unset;
+        background-color: transparent;
+        color: #fff;
+        width: 100%;
+        min-width: 0;
+        letter-spacing: 0.05em;
+        font-weight: 400;
+        padding: 16px;
+    }
+
+    .add-button {
+        all: unset;
+        background-color: #131313;
+        aspect-ratio: 1/1;
+        height: 40px;
+        border-radius: 999rem;
+        margin-right: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        transition: transform 0.3s ease;
+
+        img {
+            height: 80%;
+            width: 80%;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        &:active {
+            transform: scale(.8);
+        }
+    }
+}
